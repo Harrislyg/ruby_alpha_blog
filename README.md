@@ -1,0 +1,1 @@
+# ruby_alpha_blog
