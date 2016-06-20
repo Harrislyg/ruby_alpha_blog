@@ -1,8 +1,12 @@
 class ArticlesController < ApplicationController
+
+  def index
+    @articles = Article.all
+  end
+
   def new
     @article = Article.new
     # @article.title = 'default'
-
   end
 
   def create
@@ -39,6 +43,11 @@ class ArticlesController < ApplicationController
     end
 
   end
+
+
+
+
+
 
 
 
